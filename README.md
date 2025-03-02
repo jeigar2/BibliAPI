@@ -3,13 +3,13 @@
 - Instalar las dependencias en el entorno virtual
 
 ```bash
-temas_biblicos/.venv/bin/python -m pip install -r requirements.txt
+BibliAPI/.venv/bin/python -m pip install -r requirements.txt
 ```
 
 - Ejecutar la API
 
 ```bash
-temas_biblicos/.venv/bin/python src/app.py
+BibliAPI/.venv/bin/python src/app.py
 ```
 
 - Resultado de la ejecución
@@ -191,3 +191,13 @@ http://localhost:5000/docs
 - acceso al archivo swagger.json
 
 http://localhost:5000/static/swagger.json
+
+## Información en Imagenes
+
+### Antiguo Testamento
+
+![AT](Biblia/imagenes/Flows-Postman-BibliAPI-AT.png)
+
+### Nuevo Testamento
+
+![NT](Biblia/imagenes/Flows-Postman-BibliAPI-NT.png)
